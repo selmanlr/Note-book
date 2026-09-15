@@ -1,0 +1,61 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Drop shadow for notebook -->
+    <path
+        android:fillColor="#33000000"
+        android:pathData="M29,26 L79,26 A5,5 0 0,1 84,31 L84,83 A5,5 0 0,1 79,88 L29,88 A5,5 0 0,1 24,83 L24,31 A5,5 0 0,1 29,26 Z" />
+    <!-- Notebook Cover Main Body -->
+    <path
+        android:pathData="M28,24 L78,24 A5,5 0 0,1 83,29 L83,81 A5,5 0 0,1 78,86 L28,86 A5,5 0 0,1 23,81 L23,29 A5,5 0 0,1 28,24 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="23"
+                android:startY="24"
+                android:endX="83"
+                android:endY="86"
+                android:type="linear">
+                <item android:color="#D97706" android:offset="0.0" />
+                <item android:color="#B45309" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Spine binding section -->
+    <path
+        android:fillColor="#78350F"
+        android:pathData="M23,29 A5,5 0 0,1 28,24 L34,24 L34,86 L28,86 A5,5 0 0,1 23,81 Z" />
+    <path
+        android:fillColor="#FFD54F"
+        android:pathData="M33.5,24 L34.5,24 L34.5,86 L33.5,86 Z" />
+    <!-- Page edges visible on right -->
+    <path
+        android:fillColor="#FFFBEB"
+        android:pathData="M78,28 L81,28 L81,82 L78,82 Z" />
+    <path
+        android:fillColor="#FDE68A"
+        android:pathData="M79.5,28 L80.5,28 L80.5,82 L79.5,82 Z" />
+    <!-- Golden bookmark ribbon dangling -->
+    <path
+        android:fillColor="#EF4444"
+        android:pathData="M48,24 L56,24 L56,58 L52,53 L48,58 Z" />
+    <path
+        android:fillColor="#DC2626"
+        android:pathData="M52,24 L56,24 L56,58 L52,53 Z" />
+    <!-- Cover embossed emblem/lines -->
+    <path
+        android:fillColor="#FDE68A"
+        android:pathData="M42,42 L72,42 L72,44 L42,44 Z" />
+    <path
+        android:fillColor="#FDE68A"
+        android:pathData="M42,48 L68,48 L68,50 L42,50 Z" />
+    <path
+        android:fillColor="#FDE68A"
+        android:pathData="M42,54 L62,54 L62,56 L42,56 Z" />
+    <!-- Elastic closure band -->
+    <path
+        android:fillColor="#92400E"
+        android:pathData="M72,24 L75,24 L75,86 L72,86 Z" />
+</vector>

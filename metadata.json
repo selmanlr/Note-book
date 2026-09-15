@@ -1,0 +1,6 @@
+{
+  "name": "Notebook",
+  "description": "An elegant notebook app for writing notes, organizing thoughts, and managing personal notebooks with offline persistence.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
